@@ -1,0 +1,12 @@
+neovim
+github-cli
+python
+git
+
+tmux
+neofetch
+hyprpaper
+noto-fonts-cjk
+
+aur:
+hyprshot
