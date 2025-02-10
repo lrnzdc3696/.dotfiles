@@ -1,3 +1,11 @@
+# Automatically start or attach to a tmux session when opening a terminal
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+    # Ensure tmux is installed and not already running in the current shell
+    # Try to attach to an existing session named "default" (silently suppress errors)
+    tmux attach -t default 2> /dev/null || tmux new -s default
+    # If no session named "default" exists, create a new one with that name
+fi
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
