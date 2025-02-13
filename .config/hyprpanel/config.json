@@ -1,0 +1,94 @@
+{
+  "theme.font.size": "1.0rem",
+  "theme.notification.opacity": 100,
+  "theme.notification.border_radius": "0.5em",
+  "theme.osd.location": "right",
+  "theme.bar.buttons.enableBorders": true,
+  "theme.bar.buttons.modules.cava.enableBorder": false,
+  "theme.bar.menus.menu.notifications.height": "58em",
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.numbered_active_indicator": "underline",
+  "bar.workspaces.workspaces": 5,
+  "bar.workspaces.monitorSpecific": false,
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "menus.media.displayTime": true,
+  "menus.media.displayTimeTooltip": false,
+  "menus.power.lowBatteryNotification": true,
+  "menus.dashboard.powermenu.avatar.image": "/home/lrnzdc3696/Pictures/blue-kaiju.png",
+  "menus.dashboard.powermenu.avatar.name": "lrnzdc3696",
+  "menus.dashboard.shortcuts.enabled": true,
+  "menus.dashboard.directories.left.directory1.label": "󰉍  Downloads",
+  "menus.dashboard.directories.left.directory2.label": "󰉏  Videos",
+  "menus.dashboard.directories.left.directory3.label": "󰚝  Projects",
+  "menus.dashboard.directories.right.directory1.label": "󱧶  Documents",
+  "menus.dashboard.directories.right.directory2.label": "󰉏  Pictures",
+  "menus.dashboard.directories.right.directory3.label": "󱂵  Home",
+  "menus.clock.weather.enabled": false,
+  "scalingPriority": "gdk",
+  "tear": false,
+  "wallpaper.image": "",
+  "notifications.position": "top",
+  "notifications.showActionsOnHover": true,
+  "hyprpanel.restartAgs": false,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "theme.bar.floating": false,
+  "theme.bar.buttons.borderSize": "0.1em",
+  "theme.bar.border.location": "bottom",
+  "notifications.clearDelay": 150,
+  "theme.bar.buttons.modules.storage.enableBorder": false,
+  "theme.bar.buttons.modules.power.enableBorder": true,
+  "theme.bar.transparent": false,
+  "theme.bar.buttons.style": "default",
+  "bar.workspaces.show_icons": true,
+  "bar.network.truncation_size": 10,
+  "bar.workspaces.showAllActive": false
+}
