@@ -34,18 +34,18 @@
     "0": {
       "left": [
         "dashboard",
-        "workspaces"
+        "workspaces",
+        "volume",
+        "battery"
       ],
       "middle": [
-        "media"
+        "media",
+        "clock"
       ],
       "right": [
-        "volume",
         "network",
         "bluetooth",
-        "battery",
         "systray",
-        "clock",
         "notifications"
       ]
     },
