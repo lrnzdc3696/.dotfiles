@@ -1,10 +1,10 @@
 # Automatically start or attach to a tmux session when opening a terminal
-if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-    # Ensure tmux is installed and not already running in the current shell
-    # Try to attach to an existing session named "default" (silently suppress errors)
-    tmux attach -t default 2> /dev/null || tmux new -s default
-    # If no session named "default" exists, create a new one with that name
-fi
+# if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+#     # Ensure tmux is installed and not already running in the current shell
+#     # Try to attach to an existing session named "default" (silently suppress errors)
+#     tmux attach -t default 2> /dev/null || tmux new -s default
+#     # If no session named "default" exists, create a new one with that name
+# fi
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -22,6 +22,18 @@ alias grep='grep --color=auto'
 # PS1='[\u@\h \W]\$ '
 alias config='/usr/bin/git --git-dir=/home/lrnzdc3696/.cfg/ --work-tree=/home/lrnzdc3696'
 alias pac='sudo pacman'
+
+alias main="tmux new-session -A -s main"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+alias rice='cd $(find ~/.config -maxdepth 1 -type d -not -path "*/\.git*" | fzf)'
+alias ff='cd $(find ~/Coding/ -type d -not -path "*/\.git*" | fzf)'
+# alias fff='cd $(find ~ -type d -not -path "*/\.git*" | fzf)'
+# alias ffff='cd $(find ~ | fzf)'
 
 export PATH="/usr/bin/python3.10:$PATH"
 
