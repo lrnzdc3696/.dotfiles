@@ -40,6 +40,7 @@
       ],
       "middle": [
         "media",
+        "cava",
         "clock"
       ],
       "right": [
@@ -90,5 +91,6 @@
   "theme.bar.buttons.style": "default",
   "bar.workspaces.show_icons": true,
   "bar.network.truncation_size": 10,
-  "bar.workspaces.showAllActive": false
+  "bar.workspaces.showAllActive": false,
+  "bar.customModules.cava.showActiveOnly": true
 }
